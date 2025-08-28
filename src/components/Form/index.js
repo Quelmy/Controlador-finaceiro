@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Grid from "../Grid"; // ajuste o caminho correto
 import * as C from "./styles";
 
 const Form = ({handleAdd, TransactionsList, setTransactionsList}) => {
