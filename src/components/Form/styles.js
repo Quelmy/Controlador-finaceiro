@@ -6,27 +6,27 @@ export const Container = styled.div`
   width: 98%;
   background-color: #fff;
   box-shadow: 8px 0px 5px #ccc;
-  diplay: flex;
-  justify-content: space-arond;
+  display: flex;
+  justify-content: space-around;
   padding: 15px 0px;
   gap: 10px;
 
-  @media (max-wisth: 750px) {
+  @media (max-width: 750px) {
     display: grid;
   }
 `;
 
 export const InputContent = styled.div`
   display: flex;
-  flex-direction: colunm;
+  flex-direction: column;
 `;
 
-export const label = styled.label`
+export const Label = styled.label`
   display: flex;
   flex-direction: column;
 `;
 
-export const input = styled.input`
+export const Input = styled.input`
   outline: none;
   border-radius: 5px;
   padding: 5px 10px;
@@ -40,17 +40,17 @@ export const RadioGroup = styled.div`
 
   input {
     margin-left: 20px;
-    margin-right: 5px
+    margin-right: 5px;
     accent-color: black;
     margin-top: 0;
   }
 `;
 
 export const Button = styled.button`
-  padding: 5px; 10px;
+  padding: 5px 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   color: white;
   background-color: teal;
-`
+`;
